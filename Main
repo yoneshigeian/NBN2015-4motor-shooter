@@ -1,0 +1,36 @@
+//Macros
+#define SHOOTUP     vexRT[Btn8U]
+#define SHOOTDOWN   vexRT[Btn8D]
+#define SHOOTSTOP   vexRT[Btn8L]
+
+
+
+//Global Variables
+int shootstate=0;
+int 
+
+//Include files
+#include "shooter.h"
+    
+
+
+
+//Pre-Auto
+  //display Lcd Backlight
+  //Clear LCD
+  //Reset Gyroscope
+  //Reset Acclerometer
+  //Display Autonomous Functions
+  //Display Shooter Speed
+
+
+
+//Auto
+
+
+
+//Tele-op
+  while(1)
+  {
+  ShooterStateMachine();
+  }
